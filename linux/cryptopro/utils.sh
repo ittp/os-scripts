@@ -15,4 +15,6 @@ download() {
 # export PATH="$(/bin/ls -d /opt/cprocsp/{s,}bin/*|tr '\n' ':')$PATH"
 
 
-
+lic() {
+  cpconfig -license -view
+}
